@@ -9,13 +9,16 @@
   border-radius: 4px;
   padding: 5px;
   max-width: 400px;
+  height: 100;
+  display: grid;
+  margin: auto;
 }
 
 .todo {
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
-  padding: 3px 10px;
-  font-size: 12px;
+  padding: 5px 10px;
+  font-size: 15px;
   margin-bottom: 6px;
   border-radius: 3px;
   display: flex;

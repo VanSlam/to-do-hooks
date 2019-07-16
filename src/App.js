@@ -30,7 +30,7 @@ function TodoForm({ addTodo }) {
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        className="intput"
+        className="input"
         value={value}
         placeholder="Add task..."
         onChange={e => setValue(e.target.value)}
@@ -40,31 +40,32 @@ function TodoForm({ addTodo }) {
 }
 
 function App() {
-  const [todos, setTodos] = useState([
-    {
-      text: 'Learn more react',
-      isCompleted: false
-    },
-    {
-      text: 'Get a dev job',
-      isCompleted: false
-    }
-  ])
+  var test = [{ text: 'Your tasks will appear here!' }]
+  var h = JSON.parse(localStorage.getItem('rememberMe'))
+  if (h !== null) {
+    test = h
+  }
+  const [todos, setTodos] = useState(test)
 
   const addTodo = text => {
     const newTodos = [...todos, { text }]
+    localStorage.setItem('rememberMe', JSON.stringify(newTodos))
+    console.log(localStorage.getItem('rememberMe'))
+
     setTodos(newTodos)
   }
 
   const completeTodo = index => {
     const newTodos = [...todos]
     newTodos[index].isCompleted = true
+    localStorage.setItem('rememberMe', JSON.stringify(newTodos))
     setTodos(newTodos)
   }
 
   const removeTodo = index => {
     const newTodos = [...todos]
     newTodos.splice(index, 1)
+    localStorage.setItem('rememberMe', JSON.stringify(newTodos))
     setTodos(newTodos)
   }
 
@@ -76,6 +77,7 @@ function App() {
             key={index}
             index={index}
             todo={todo}
+            ß
             completeTodo={completeTodo}
             removeTodo={removeTodo}
           />
