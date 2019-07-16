@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repository-name/static/css/main.e19a0cde.chunk.css",
-    "main.js": "/repository-name/static/js/main.cb9f0598.chunk.js",
-    "main.js.map": "/repository-name/static/js/main.cb9f0598.chunk.js.map",
-    "runtime~main.js": "/repository-name/static/js/runtime~main.f7634681.js",
-    "runtime~main.js.map": "/repository-name/static/js/runtime~main.f7634681.js.map",
-    "static/js/2.7b0e938e.chunk.js": "/repository-name/static/js/2.7b0e938e.chunk.js",
-    "static/js/2.7b0e938e.chunk.js.map": "/repository-name/static/js/2.7b0e938e.chunk.js.map",
-    "index.html": "/repository-name/index.html",
-    "precache-manifest.e1d6f2775243714076b866343d4df8ff.js": "/repository-name/precache-manifest.e1d6f2775243714076b866343d4df8ff.js",
-    "service-worker.js": "/repository-name/service-worker.js",
-    "static/css/main.e19a0cde.chunk.css.map": "/repository-name/static/css/main.e19a0cde.chunk.css.map"
+    "main.css": "/to-do-hooks/static/css/main.e19a0cde.chunk.css",
+    "main.js": "/to-do-hooks/static/js/main.6a70e551.chunk.js",
+    "main.js.map": "/to-do-hooks/static/js/main.6a70e551.chunk.js.map",
+    "runtime~main.js": "/to-do-hooks/static/js/runtime~main.485a08d4.js",
+    "runtime~main.js.map": "/to-do-hooks/static/js/runtime~main.485a08d4.js.map",
+    "static/js/2.7b0e938e.chunk.js": "/to-do-hooks/static/js/2.7b0e938e.chunk.js",
+    "static/js/2.7b0e938e.chunk.js.map": "/to-do-hooks/static/js/2.7b0e938e.chunk.js.map",
+    "index.html": "/to-do-hooks/index.html",
+    "precache-manifest.278d17cbc546ec4d9b89ef6d96f96003.js": "/to-do-hooks/precache-manifest.278d17cbc546ec4d9b89ef6d96f96003.js",
+    "service-worker.js": "/to-do-hooks/service-worker.js",
+    "static/css/main.e19a0cde.chunk.css.map": "/to-do-hooks/static/css/main.e19a0cde.chunk.css.map"
   }
 }
