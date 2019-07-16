@@ -41,9 +41,9 @@ function TodoForm({ addTodo }) {
 
 function App() {
   var test = [{ text: 'Your tasks will appear here!' }]
-  var h = JSON.parse(localStorage.getItem('rememberMe'))
-  if (h !== null) {
-    test = h
+  var memory = JSON.parse(localStorage.getItem('rememberMe'))
+  if (memory !== null) {
+    test = memory
   }
   const [todos, setTodos] = useState(test)
 
